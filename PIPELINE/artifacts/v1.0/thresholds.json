@@ -1,0 +1,6 @@
+{
+  "decisione_multiclasse": "argmax delle 3 probabilita (white / black / draw)",
+  "soglia_upset_logistic_regression_binario": 0.38,
+  "soglia_upset_gradient_boosting_binario": 0.33,
+  "nota": "Le soglie upset provengono dal modello binario dello Step 3 (rilevazione upset) e non sono usate da pipeline_lr.joblib."
+}

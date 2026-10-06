@@ -1,0 +1,9 @@
+{
+  "modello": "logistic_regression_multiclass",
+  "log_loss": 0.7876,
+  "brier_score_medio": 0.1622,
+  "accuracy": 0.6064,
+  "ece_medio": 0.0184,
+  "ece_draw": 0.0018,
+  "nota": "Metriche calcolate sul test temporale, consultato una sola volta come valutazione finale indipendente del modello scelto sulla validation (Step 3, Sezione 6). Isotonic e Platt scaling sono stati testati come calibrazione esplicita (Step 3, Sezione 5) ma non applicati: nessuno dei due riduce l'ECE rispetto al modello non calibrato."
+}
